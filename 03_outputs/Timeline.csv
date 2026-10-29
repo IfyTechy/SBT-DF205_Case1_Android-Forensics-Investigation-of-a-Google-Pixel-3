@@ -1,0 +1,23 @@
+event_time,time_basis,event_description,source_artifact,record_reference,interpretation_limitations
+2020-01-29 15:38:12,UTC,Stored Bluetooth device entry has a recorded creation time,Android Bluetooth configuration,Stored device entry,Does not prove a connection or data transfer at this time
+2020-01-29,UTC date only,Multiple service verification messages were recorded,Android SMS database,SMS records,Receipt does not prove successful account registration; individual timestamps require verification
+2020-02-01 01:00:03,UTC,Verification SMS associated with a messaging service,Android SMS database,SMS record,Verification text alone does not prove successful registration
+2020-02-01 01:04:12,UTC,Verification SMS associated with a communication service,Android SMS database,SMS record,Verification text alone does not prove successful registration
+2020-02-01 19:40:13,UTC,Chat message questions the use of a messaging application,Chat application database,Message record,Stored display names do not independently establish identity
+2020-02-01 19:42:36,UTC,Chat reply discusses an application-related claim,Chat application database,Message record,Records the message content rather than the factual accuracy of the statement
+2020-02-01 19:43:27,UTC,Chat reply contains a sarcastic expression,Chat application database,Message record,Interpretation is limited to the stored message text
+2020-02-01 19:46:25,UTC,Chat message discusses video calling and advertisements,Chat application database,Message record,Message content does not independently establish application functionality
+2020-02-01 20:04:53,UTC,MMS send-request record identified,Android SMS/MMS database,MMS PDU record,A send request does not prove successful delivery
+2020-02-01 20:04:55,UTC,Read-report record associated with a messaging event,Messaging application database,Read-report record,An unset or unavailable read timestamp is not a confirmed read time
+2020-02-08 20:00:46,UTC,Text message recorded in a messaging application,Messaging application database,Message record,Direction depends on the database field interpretation
+2020-02-08 20:01:27,UTC,Additional text message recorded in the same application,Messaging application database,Message record,Application-specific meaning beyond stored text is not inferred
+2020-02-08 20:03:06,UTC,Additional text message recorded in the same application,Messaging application database,Message record,Interpretation is limited to the stored message text
+2020-02-08 20:55:14.692,UTC,Outgoing message recorded in a messaging application,Messaging application database,Message record,Stored account identifiers do not independently establish real-world identity
+2020-02-08 20:56:05,UTC,Incoming message recorded in the same conversation,Messaging application database,Message record,Timestamp is taken from the examined database
+2020-02-08 20:57:05,UTC,Incoming image associated with a messaging conversation,Messaging application database,Message and media record,Linked records should not be counted as independent events without validation
+2020-02-09 18:00:14.337,UTC,Location-bearing message record identified,Messaging application database,Location record,Stored coordinates do not prove a person's physical presence
+2020-02-09 18:00:33.018,UTC,Second location-bearing message record identified,Messaging application database,Location record,Nearby coordinates do not necessarily represent separate visits
+2020-02-09 18:23:53,Timestamp interpretation requires verification,Photo metadata contains a capture-time field and location data,Photo application database,Local media record,Verify original image metadata and timezone interpretation before treating the time as definitive UTC
+2020-02-14 13:05:57,UTC,Outgoing call record associated with a stored contact,Call-log database,Call record,Contact association does not independently prove identity; duration reflects the stored record
+2020-02-14 13:09:03,UTC,Outgoing SMS contains a statement about message synchronization,Android SMS database,SMS record,The statement does not prove synchronization succeeded
+2020-02-14 14:41:18,UTC,Incoming call record associated with a stored contact,Call-log database,Call record,Contact association does not independently prove identity

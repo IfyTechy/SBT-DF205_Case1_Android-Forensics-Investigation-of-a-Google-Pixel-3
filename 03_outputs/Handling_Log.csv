@@ -1,0 +1,9 @@
+log_id,date_time,item_or_scope,action,supporting_record,notes
+HL-001,Not recorded in contemporaneous log,Original evidence archive,Calculated SHA-256 and tested archive integrity,Archive verification record,Preserve the original archive unchanged
+HL-002,Not recorded in contemporaneous log,Extracted evidence and working copy,Compared directory contents for differences,Working notes,Retain available command output and document any limitations
+HL-003,Not recorded in contemporaneous log,Messaging application media,Calculated SHA-256 hashes and compared relevant copies,Media verification record,Record individual verification results
+HL-004,Not recorded in contemporaneous log,Messaging application attachments,Calculated SHA-256 hashes and compared relevant copies,Media verification record,Keep file provenance documented
+HL-005,Not recorded in contemporaneous log,Cached image artifacts,Recorded file sizes dimensions and SHA-256 hashes,Examination notes,Distinguish hash algorithms and interpret metadata cautiously
+HL-006,Not recorded in contemporaneous log,Application SQLite databases,Examined records using read-only SQLite access,SQL query documentation,Preserve relevant WAL and SHM sidecars with their databases
+HL-007,Not recorded in contemporaneous log,Photo application database,Performed SQLite integrity checking,Examination notes,Document integrity warnings and never repair original evidence in place
+HL-008,Not recorded in contemporaneous log,Map and photo location artifacts,Examined coordinate-bearing records and available metadata,Examination notes,Location correlations are provisional and do not independently prove physical presence

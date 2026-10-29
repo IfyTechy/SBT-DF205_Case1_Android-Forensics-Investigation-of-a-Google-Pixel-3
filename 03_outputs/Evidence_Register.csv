@@ -1,0 +1,13 @@
+evidence_id,description,relative_path,file_type,sha256,verification_status,handling_notes
+E-001,Android extraction archive,REDACTED/EXTRACTION_ARCHIVE.zip,ZIP archive,REDACTED,Verification documented,Preserve original evidence unchanged
+E-002,Received messaging-app image,REDACTED/received_image.jpg,JPEG image,REDACTED,Hash verification documented,Compare relevant copies using cryptographic hashes
+E-003,Sent messaging-app image,REDACTED/sent_image.jpg,JPEG image,REDACTED,Hash verification documented,Preserve source and working copies separately
+E-004,Messaging-app image attachment,REDACTED/image_attachment.jpg,JPEG image,REDACTED,Hash verification documented,Document provenance and file metadata
+E-005,Referenced social-media image,REDACTED/referenced_image.jpg,JPEG image,REDACTED,Hash verification documented,Correlate cautiously with related artifacts
+E-006,Cached chat image A,REDACTED/cached_image_A.jpg,JPEG image,REDACTED,Hash verification documented,Record cache provenance and metadata
+E-007,Cached chat image B,REDACTED/cached_image_B.jpg,JPEG image,REDACTED,Hash verification documented,Interpret staging metadata cautiously
+E-008,SMS and MMS database,REDACTED/mmssms.db,SQLite database,REDACTED,Hash recorded,Document database and sidecar status
+E-009,Photo application primary database,REDACTED/photos_primary.db,SQLite database,REDACTED,Integrity warning documented,Preserve original; do not repair evidence in place
+E-010,Photo application secondary database,REDACTED/photos_secondary.db,SQLite database,REDACTED,Integrity check documented,Record validation results and preserve relevant sidecars
+E-011,Messaging application database,REDACTED/messages.db,SQLite database,REDACTED,Examination documented,Preserve database and associated sidecars together
+E-012,Messaging application chat database,REDACTED/chat_database.db,SQLite database,REDACTED,Integrity check documented,Do not expose authentication material

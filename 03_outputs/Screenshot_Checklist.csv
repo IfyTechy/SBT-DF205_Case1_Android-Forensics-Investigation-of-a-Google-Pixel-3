@@ -1,0 +1,13 @@
+screenshot_id,topic,source_or_command,status,filename
+SS-01,Original archive verification,Archive integrity verification,Pending,01_archive_verification.png
+SS-02,Android version and device fingerprint,Build properties,Pending,02_device_identity.png
+SS-03,Android user profiles,Android user profile records,Pending,03_user_profiles.png
+SS-04,AOSP SMS and MMS,SMS and MMS database examination,Pending,04_sms_mms.png
+SS-05,Contacts and call log,Contacts and call log database examination,Pending,05_contacts_calls.png
+SS-06,Google Messages conversation,Google Messages database examination,Pending,06_google_messages.png
+SS-07,WhatsApp conversation and location records,Messaging database examination,Pending,07_whatsapp_records.png
+SS-08,TextNow messages,Messaging application database examination,Pending,08_textnow_records.png
+SS-09,Kik messages and contact metadata,Messaging application database examination,Pending,09_kik_records.png
+SS-10,Google Photos metadata and coordinates,Photo database and metadata examination,Pending,10_google_photos.png
+SS-11,Google Maps coordinate-bearing records,Maps database examination,Pending,11_google_maps.png
+SS-12,Timeline and evidence register,Sanitized case outputs,Pending,12_case_outputs.png
