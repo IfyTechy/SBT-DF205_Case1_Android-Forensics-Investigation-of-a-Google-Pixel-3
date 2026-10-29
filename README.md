@@ -42,7 +42,7 @@ Workflow applied:
 - SHA-256 hash calculated and verified.
 
 Original evidence SHA-256:
-`ca6918ef8b20486b6a5ded15609ac51318f377829480f93be3ba15364a8aa00a`
+Withheld from the public portfolio; retained in the private case records.
 
 - Archive integrity test passed.
 - Working copy compared with original, no differences found.
@@ -112,31 +112,18 @@ Findings:
 ---
 
 ## Repository Structure
+## Repository Structure
 
-```
-android-file-system-forensics/
+```text
+repository-root/
 ├── README.md
-├── evidence/
-│   └── Evidence_Register.csv
-├── logs/
-│   └── Handling_Log.csv
-├── queries/
-│   └── Queries.sql
-├── timeline/
-│   └── Timeline.csv
-├── report/
-│   └── Report.pdf
-└── screenshots/
-    ├── 01-evidence-integrity.png
-    ├── 02-device-identification.png
-    ├── 03-user-profiles.png
-    ├── 04-connectivity-artifacts.png
-    ├── 05-sms-mms-analysis.png
-    ├── 06-contact-analysis.png
-    ├── 07-call-log-analysis.png
-    └── 08-google-messages-analysis.png
+└── 03_outputs/
+    ├── Evidence_Register.csv
+    ├── Handling_Log.csv
+    ├── Queries.sql
+    ├── Screenshot_Checklist.csv
+    └── Timeline.csv
 ```
-
 ---
 
 ## Key Skills Demonstrated
